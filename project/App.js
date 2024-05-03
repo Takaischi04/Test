@@ -1,10 +1,12 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import Icon from "./src/components/atoms/icon";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>TEST</Text>
+      <Icon />
+
       <StatusBar style="auto" />
     </View>
   );
