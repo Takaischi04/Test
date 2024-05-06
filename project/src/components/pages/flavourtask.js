@@ -1,13 +1,16 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import Icon from "../molecules/icon";
+import Headline from "../atoms/Headline";
 
 export default function Flavourtask() {
   return (
-    <View style={styles.iconsContainer}>
-      <Icon flavourpic="vanilieIcon" />
-      <Icon flavourpic="chocoIcon" />
-      <Icon flavourpic="waterIcon" />
+    <View>
+      <Headline title="Was geht" />
+      <View style={styles.iconsContainer}>
+        <Icon flavourpic="vanilieIcon" name="Vanilie" />
+        <Icon flavourpic="chocoIcon" name="Chocolade" />
+      </View>
     </View>
   );
 }
