@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import Icon from "../molecules/icon";
-import Headline from "../atoms/Headline";
+import Headline from "../atoms/headline";
 
 export default function Flavourtask() {
   return (
