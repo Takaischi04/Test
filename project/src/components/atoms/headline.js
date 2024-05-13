@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-export default function Headline({ title }) {
+export default function headline({ title }) {
   return (
     <View style={styles.headline}>
       <Text style={styles.title}>{title}</Text>

@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export default function fluidpage() {
-    return (
-        <div>fluidpage</div>
-    )
+  return (
+    <div>
+      <View>
+        <p>knsdagojns</p>
+      </View>
+    </div>
+  );
 }
