@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { View, Text } from 'react-native';
 
 export default function firstPage() {
     return (
-        <div>firstPage</div>
+        <View className="h-full w-full">
+            <Text>hello</Text>
+        </View>
     )
 }
